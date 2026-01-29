@@ -1,0 +1,12 @@
+name: On Pull Request Review
+
+on:
+  pull_request_review:
+    types: [submitted, edited, dismissed]
+
+jobs:
+  handle-pr-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show review details
+        run: echo "A pull request review event was triggered!"
