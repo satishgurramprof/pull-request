@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <!-- Main heading -->
+    <h1>Welcome to My Website</h1>
+
+    <!-- Paragraph -->
+    <p>This is my first HTML page. HTML is used to structure content on the web.</p>
+
+    <!-- Link -->
+    <p>Visit <a href="https://www.example.com" target="_blank">Example Website</a></p>
+
+    <!-- Image -->
+    <img src="https://via.placeholder.com/150" alt="Sample Image">
+
+    <!-- List -->
+    <h2>My Favorite Fruits</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ul>
+
+    <!-- Table -->
+    <h2>Sample Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>30</td>
+        </tr>
+    </table>
+</body>
+</html>
