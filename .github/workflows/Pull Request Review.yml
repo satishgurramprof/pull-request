@@ -1,12 +1,12 @@
-name: On Pull Request Review
+name: On Pull Request Review Comment
 
 on:
-  pull_request_review:
-    types: [submitted, edited, dismissed]
+  pull_request_review_comment:
+    types: [created, edited, deleted]
 
 jobs:
-  handle-pr-review:
+  handle-pr-review-comment:
     runs-on: ubuntu-latest
     steps:
-      - name: Show review details
-        run: echo "A pull request review event was triggered!"
+      - name: Show review comment details
+        run: echo "A pull request review comment event was triggered!"
